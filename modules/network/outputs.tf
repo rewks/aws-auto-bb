@@ -1,7 +1,7 @@
 output "vpc_id" {
-    value = data.aws_vpc.vpc.id
+    value = aws_vpc.vpc.id
 }
 
 output "subnet_id" {
-    value = data.aws_subnet.subnet.id
+    value = aws_subnet.subnet.id
 }
